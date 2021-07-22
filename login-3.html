@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/8f14934717.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netmeds Sign In/Sign Up</title>
+    <link href="login.css" rel="stylesheet"/>
+  </head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <img class="img" src="https://www.netmeds.com/msassets/home-logo-netmeds-new.svg">
+      <div class ="co"></div>
+      <i class="fas fa-map-marker-alt loc"></i>
+      <i class="fas fa-pen pen"></i>
+      <p class="del">Delivering to</p>
+      <p class="del-2">110001</p>
+      <input type="text" placeholder="Search for medicines & wellness products...">
+      <div class="icon-div"></div>
+      <i class="fas fa-search"></i>
+      <p id="u">UPLOAD</p>
+      <p id="si" onclick="mig()">Sign Up</p>
+      <i class="fas fa-shopping-cart cart"></i>
+      <i class="fas fa-user-plus cart-2"></i>
+    </div>
+    <div class="big-div">
+      <img class="sign" src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png">
+      <form id="newForm">
+        <input id="email" type="email" placeholder = "name@example.com" required>
+        <input type="password" id ="btn_1" placeholder="password">
+        <h1 id="h1">Sign In</h1>
+        <p class="p-num">EMAIL ADDRESS</p>
+        <p class="down">Sign up or Sign in to access your orders, special offers,<br> health tips and more!</p>
+        <!-- <div class="num">+91</div> -->
+        <hr>
+      </form>
+      <button id="btn_2" onclick="fun()">Submit</button>
+      <hr class="hr">
+      <p class="p-hr">OR</p>
+      <hr class="hr-2">
+    </div>
+  </div>
+</body>
+</html>
+<script src="login.js"></script>

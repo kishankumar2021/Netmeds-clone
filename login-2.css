@@ -1,0 +1,246 @@
+img{
+    width: 150px;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1536px;
+    height: 90px;
+    background-color: rgb(36,174,177);
+}
+.img{
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 140px;
+}
+input{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: black;
+    border: none;
+    font-size: 13px;
+    width: 500px;
+    height: 47px;
+    padding-left: 20px;
+}
+p{
+    color: black;
+}
+input::placeholder{
+    position: absolute;
+    top: 34%;
+    left: 4%;
+    font-size: 13px;
+    color: lightslategray;
+    font-weight: 0;
+}
+ .fas{
+    position: absolute;
+    left: 65%;
+    top: 40%;
+    color: lightseagreen;
+    font-size: 20px;
+}
+.icon-div{
+    position: absolute;
+    left: 980px;
+    top: 25%;
+    color: black;
+    font-size: 20px;
+    background-color: aliceblue;
+    width: 55px;
+    height: 49px;
+    border-radius: 5px;
+    font-weight: 0;
+}
+#u{
+    position: absolute;
+    left: 70%;
+    top: 25%;
+    font-size: 15px;
+    color: white;
+}
+.cart{
+    position: absolute;
+    left: 77%;
+    top: 40%;
+    color: white;
+    font-size: 20px;
+}
+.cart-2{
+    position: absolute;
+    left: 81%;
+    top: 40%;
+    color: white;
+    font-size: 20px;
+}
+#si{
+    position: absolute;
+    left: 84%;
+    top: 25%;
+    color: white;
+    font-size: 15px;    
+}
+.del{
+    position: absolute;
+    left: 24%;
+    top: 13%;
+    color: darkgray;
+    font-size: 14px;
+}
+.del-2{
+    position: absolute;
+    left: 24%;
+    top: 33%;
+    color: black;
+    font-weight: bolder;
+}
+.co{
+    position: absolute;
+    left: 21%;
+    top: 25%;
+    width: 144px;
+    height: 49px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.loc{
+    position: absolute;
+    left: 22%;
+    top: 40%;
+    color: slategray;
+}
+.pen{
+    position: absolute;
+    left: 28%;
+    top: 58%;
+    color: slategray;
+    font-size: 8px;
+}
+.big-div{
+    position: absolute;
+    left: 16%;
+    top: 18%;
+    background-color: white;
+    width: 66%;
+    height: 77%;
+    border-radius: 20px;
+}
+body{
+    background-color: whitesmoke;
+}
+.sign{
+    width: 500px;
+}
+#num{
+    position: absolute;
+    left: 58%;
+    top: 31%;
+    width: 300px;
+    padding: 1px 2px;
+    font-size: 20px;
+    border: 1px solid white;
+    height: 25px;
+}
+#num::placeholder{
+    font-size: 15px;
+    padding-top: 0;
+    padding-left: 0;
+}
+hr{
+    position: absolute;
+    left: 54%;
+    top: 35%;
+    width: 350px;
+    height:2px;
+    border-width:0;
+    color:lightgray;
+    background-color:lightgray;
+}
+.p-num{
+    position: absolute;
+    left: 54%;
+    top: 26%;
+    color: rgb(36,174,177);
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 2px ;
+}
+.num{
+    position: absolute;
+    left: 54%;
+    top: 32%;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+}
+#h1{
+    position: absolute;
+    left: 54%;
+    top: 3%;
+    font-size: 28px;
+}
+.down{
+    position: absolute;
+    left: 54%;
+    top: 11%;
+    color: slategray;
+    font-size: 15px;
+}
+.btn-1{
+    position: absolute;
+    left: 54%;
+    top: 41%;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(36,174,177);
+}
+.btn-2{
+    position: absolute;
+    left: 54%;
+    top: 60%;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border:1px solid rgb(36,174,177);
+    background-color: white;
+    color: rgb(36,174,177);
+}
+.hr{
+    position: absolute;
+    left: 58%;
+    top: 52%;
+    width: 110px;
+    height:2px;
+    border-width:0;
+    color:lightgray;
+    background-color:lightgray;
+}
+.hr-2{
+    position: absolute;
+    left: 75%;
+    top: 52%;
+    width: 110px;
+    height:2px;
+    border-width:0;
+    color:lightgray;
+    background-color:lightgray;
+}
+.p-hr{
+    position: absolute;
+    left: 71%;
+    top: 50%;
+    width: 130px;
+    height:2px;
+    border-width:0;
+    color:gray;
+    font-size: 13px;
+}
